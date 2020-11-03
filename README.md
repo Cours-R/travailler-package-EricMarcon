@@ -1,7 +1,5 @@
 # Cours Travailler avec R : créer un package
 
-![Logo EcoFoG](images/EcoFoG2020.png)
-
 Ce dépôt destiné à la classe GitHub Cours-R contientle code produit en suivant les indications du cours.
 
 La méthode générique `triple` et ses déclinaisons sont dans `R/triple.R`.
