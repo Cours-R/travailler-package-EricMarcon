@@ -1,0 +1,35 @@
+Package: multiple
+Title: Calculate multiples of numbers
+Version: 0.0.0.9000
+Authors@R: 
+  person(given = "Eric",
+           family = "Marcon",
+           role = c("aut", "cre"),
+           email = "e.marcon@free.fr",
+           comment = c(ORCID = "0000-0002-5249-321X"))
+Description: This package allows simple computation
+  of multiples of numbers, including fast algorithms
+  for integers.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+URL: https://ericmarcon.github.io/multiple
+Imports:
+    magrittr,
+    Rcpp,
+    Rdpack,
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+LinkingTo: 
+    Rcpp
+RdMacros: Rdpack
+Depends: 
+    R (>= 2.10),
+    ggplot2,
+    graphics
