@@ -12,8 +12,8 @@ La classe `multiple` est dans `R/multiple.R`
 
 Mettez à jour le dépôt :
 
-- Vérifiez le package () ;
-- Documentez `triple.R` pour **roxygen2** pour rendre les fonctions visibles;
+- Vérifiez le package ;
+- Documentez `triple.R` pour **roxygen2** pour rendre les fonctions visibles ;
 - Personnalisez `DESCRIPTION`.
 
 Vérifiez le fonctionnement du package, notamment de l'aide.
