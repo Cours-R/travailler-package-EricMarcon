@@ -1,0 +1,10 @@
+pandoc: '2.2'
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  multiple: multiple.html
+last_built: 2020-11-04T22:48Z
+urls:
+  reference: https://ericmarcon.github.io/multiple/reference
+  article: https://ericmarcon.github.io/multiple/articles
+
