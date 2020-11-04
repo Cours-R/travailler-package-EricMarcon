@@ -7,11 +7,11 @@ before_install:
   - echo "options(HTTPUserAgent = paste0('R/', getRversion(), ' R (', paste(getRversion(), R.version['platform'], R.version['arch'], R.version['os']),')'))" >> ~/.Rprofile.site
 
 r_packages:
-# - covr                                              # Codecov non activé
+  - covr
   - pkgdown
 
 after_success:
-# - Rscript -e 'library(covr); codecov(type ="all")'  # Codecov non activé
+  - Rscript -e 'library(covr); codecov(type ="all")'
   - mkdir docs
   - travis_wait 60 Rscript -e 'pkgdown::build_site()'
   - touch docs/.nojekyll
