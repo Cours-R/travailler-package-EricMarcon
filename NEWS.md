@@ -2,4 +2,5 @@
 
 ## New features
 
-* Initial version of the package
+* Initial version of the package.
+* On Travis.
