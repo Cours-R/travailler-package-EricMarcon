@@ -1,4 +1,7 @@
 # Cours Travailler avec R : créer un package
+[![Build Status](https://travis-ci.org/Cours-R/travailler-package-EricMarcon.svg?branch=master)](https://travis-ci.org/Cours-R/travailler-package-EricMarcon)
+[![codecov](https://codecov.io/github/Cours-R/travailler-package-EricMarcon/branch/master/graphs/badge.svg)](https://codecov.io/github/Cours-R/travailler-package-EricMarcon) 
+
 
 Ce dépôt destiné à la classe GitHub Cours-R contientle code produit en suivant les indications du cours.
 
